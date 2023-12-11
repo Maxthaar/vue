@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-      <p>Welkom bij mijn eerste Vue-applicatie!</p>
+      <p>Hello World!</p>
       <CustomerList />
   </div>
 </template>
@@ -17,9 +17,13 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
+body{
+  background: rgba(71,94,108,1);
+}
+h1{
+  color: rgba(1,170,162,1);
+}
 h3 {
   margin: 40px 0 0;
 }
